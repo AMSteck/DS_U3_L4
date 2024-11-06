@@ -1,0 +1,8 @@
+1. when len(searchList) == 1 or middle == target
+
+2. target is the thing were trying to find. sorted list in the list that we check for the target and sort if its not in the middle.  pointer
+tracks the index of the target number if its in there at all
+
+3. inital value = 0. if its to the left it wont change. If its to the right it will go one right to the middle item in the current list before its split again.
+
+4. one by one it would take 9 times at most to get a result. recursion only has to run 3 times at most
